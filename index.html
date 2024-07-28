@@ -36,9 +36,9 @@
           <h1>Welcome to Tech Corporation</h1>
         </marquee>
         <p>
-          We are a leading provider of innovative products and services.
+          We are a leading provider of <em>innovative products</em> and services.
           <br>
-          Our mission is to deliver high-quality solutions to our customers.
+          Our mission is to deliver <strong>high-quality solutions</strong> to our customers.
         </p>
         <audio controls>
           <source src="public/introduction.mp3" type="audio/mpeg" />
@@ -56,23 +56,23 @@
           <table border="1" width="100%">
             <tr>
               <td>Name</td>
-              <td>Tech Corporation</td>
+              <td><ins>Tech Corporation</ins></td>
             </tr>
             <tr>
               <td>Address</td>
-              <td>Vivekanand education institute , Chembur</td>
+              <td><ins>Vivekanand education institute, Chembur</ins></td>
             </tr>
             <tr>
               <td>Contact Information</td>
               <td>
-                Email: info@Techcorporation.com<br />Phone: +91 9657562156
+                Email: <ins>info@Techcorporation.com</ins><br />Phone: <ins>+91 9657562156</ins>
               </td>
             </tr>
             <tr>
               <td>Description</td>
               <td>
                 Tech Corporation is a leading provider of innovative products and
-                services. We are dedicated to delivering high-quality solutions
+                services. We are dedicated to delivering <strong>high-quality solutions</strong>
                 to our customers.
               </td>
             </tr>
@@ -114,7 +114,7 @@
       <section id="media" align="center">
         <h2>Media</h2>
         <article>
-          <h3>Promotional Video</h3>
+          <h3><em>Promotional Video</em></h3>
           <iframe
             width="560"
             height="315"
@@ -129,33 +129,33 @@
       </section>
 
       <section id="gallery" align="center">
-        <h2>Gallery</h2>
+        <h2><em>Gallery</em></h2>
         <figure>
           <img
             src="public/product1.jpg"
             alt="Product 1"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
           />
-          <figcaption>Product 1</figcaption>
+          <figcaption><mark>Product 1</mark></figcaption>
         </figure>
         <figure>
           <img
             src="public/product2.jpg"
             alt="Product 2"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
           />
-          <figcaption>Product 2</figcaption>
+          <figcaption><mark>Product 2</mark></figcaption>
         </figure>
         <figure>
           <img
             src="public/product3.jpg"
             alt="Product 3"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
           />
-          <figcaption>Product 3</figcaption>
+          <figcaption><mark>Product 3</mark></figcaption>
         </figure>
       </section>
     </main>
@@ -172,33 +172,35 @@
         method="post"
         enctype="text/plain"
       >
-        
-        <table align="center" cellpadding="5">
-          <tr>
-            <td align="right"><label for="name">Name:</label></td>
-            <td align="left"><input type="text" id="name" name="name" /></td>
-          </tr>
-          <tr>
-            <td align="right"><label for="email">Email:</label></td>
-            <td align="left"><input type="email" id="email" name="email" /></td>
-          </tr>
-          <tr>
-            <td align="right"><label for="message">Message:</label></td>
-            <td align="left">
-              <textarea
-                id="message"
-                name="message"
-                rows="2"
-                cols="50"
-              ></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" align="center">
-              <input type="submit" value="Send" />
-            </td>
-          </tr>
-        </table>
+        <fieldset>
+          <legend align="center"><strong>Contact Form</strong></legend>
+          <table align="center" cellpadding="5">
+            <tr>
+              <td align="right"><label for="name">Name:</label></td>
+              <td align="left"><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+              <td align="right"><label for="email">Email:</label></td>
+              <td align="left"><input type="email" id="email" name="email" /></td>
+            </tr>
+            <tr>
+              <td align="right"><label for="message">Message:</label></td>
+              <td align="left">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="2"
+                  cols="50"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <input type="submit" value="Send" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
       </form>
     </section>
     <br />
