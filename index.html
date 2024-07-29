@@ -20,6 +20,7 @@
     </header>
 
     <nav align="center">
+      <a href="#main">Home</a> |
       <a href="#company-details">Company Details</a> |
       <a href="#services">Services</a> | <a href="#media">Media</a> |
       <a href="#gallery">Gallery</a> |
@@ -31,34 +32,36 @@
     </h5>
 
     <main>
-      <div class="background-div" align="center">
+      <section id="main" align="center" bgcolor="lightblue">
         <!-- <marquee behavior="scroll" direction="left" scrollamount="15"> -->
-          <h1>Welcome to Tech Corporation</h1>
+          <h1><font size="7" color="purple">
+            Welcome to Tech Corporation</font></h1>
         <!-- </marquee> -->
         <img
         src="public/banner.jpg"
         alt="Product 2"
-       
+       width="800"
         
       />
         <p>
+          <font size="4">
           We are a leading provider of <em>innovative products</em> and services.
           <br>
           Our mission is to deliver <strong>high-quality solutions</strong> to our customers.
+        </font>
         </p>
+        
         <audio controls>
           <source src="public/introduction.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
-      </div>
-      <br />
-      <h5 align="center">
-        ---------------------------------------------------------------------------------------------------------------------
-      </h5>
+      </section>
+      
+     <hr>
 
       <section id="company-details" align="center">
         <fieldset>
-          <legend align="center"><h2><strong>Company Details</strong></h2></legend>
+          <legend align="center"><h2><strong><font size="4">Company Details</font></strong></h2></legend>
           <table border="1" width="100%">
             <tr>
               <td>Name</td>
@@ -93,22 +96,32 @@
       <section id="services" align="center">
         <h2>Our Services</h2>
         <table border="1" align="center">
+          <ul>
           <tr>
+            
             <td>Service 1:</td>
             <td>Product Development</td>
+          
           </tr>
           <tr>
+            
             <td>Service 2:</td>
             <td>Consulting Service</td>
+          
           </tr>
           <tr>
+            
             <td>Service 3:</td>
             <td>Customer Support</td>
+          
           </tr>
           <tr>
+            
             <td>Service 4:</td>
             <td>Training and Workshops</td>
+          
           </tr>
+        </ul>
         </table>
       </section>
 
@@ -121,16 +134,7 @@
         <h2>Media</h2>
         <article>
           <h3><em>Promotional Video</em></h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Z2MyXuHstIs?si=e0Xav8KFw8RQoogf"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/E0pkd_klF60?si=kozTSBIUM2K7jwTS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
       </section>
 
